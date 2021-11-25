@@ -17,14 +17,14 @@ public class TimeValidation {
     }
 
 
-    public static boolean areHoursValid(int hours) {
-        // Implement method
-        return false;
+   public static boolean areHoursValid(int hours) {
+        boolean hoursValid = hours >= 0 && hours < 24;
+        return hoursValid;
     }
 
 
     public static boolean areMinutesValid(int minutes) {
-        // Implement method
-        return false;
+       
+        return minutes >=0 && minutes < 60;
     }
 }
