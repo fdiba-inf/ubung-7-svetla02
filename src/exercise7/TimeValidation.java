@@ -12,7 +12,7 @@ public class TimeValidation {
         System.out.print("Enter minutes: ");
         int minutes = input.nextInt();
 
-        boolean timeValid = false; 
+        boolean timeValid = areHoursValid(hours) && areMinutesValid(minutes);
         System.out.println("Time valid: " + timeValid);
     }
 
